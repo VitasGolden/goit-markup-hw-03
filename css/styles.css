@@ -1,0 +1,141 @@
+:root {
+	--primary-brand: #4d5ae5; /*Iris*/
+	--pressed-state: #404bbf; /*Ocean*/
+	--dark: #2e2f42; /*Navy blue*/
+	--text: #434455; /*Slate*/
+	--light: #f4f4fd; /*cloud*/
+	--white-background: #fff; /*White*/
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: var(--white-background);
+	color: var(--text);
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: calc(24px / 16px);
+	letter-spacing: 0.03em;
+}
+
+header .logo {
+	color: var(--dark);
+}
+
+.logo span {
+	color: var(--primary-brand);
+}
+
+nav a {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(24px / 16px);
+	color: var(--dark);
+	letter-spacing: 0.02em;
+}
+
+nav a:hover,
+nav a:focus {
+	color: var(--pressed-state);
+}
+
+address a {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: calc(24px / 16px);
+	font-style: normal;
+	letter-spacing: 0.02em;
+	color: var(--text);
+}
+
+address a:hover,
+address a:focus {
+	color: var(--pressed-state);
+}
+
+.banner {
+	background-color: var(--dark);
+}
+
+.banner-title {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: calc(60px / 56px);
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--white-background);
+}
+
+.banner-button {
+	color: var(--white-background);
+	background-color: var(--primary-brand);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(24px / 16px);
+	letter-spacing: 0.04em;
+	text-align: center;
+}
+
+.banner-button:hover,
+.banner-button:focus {
+	background-color: var(--pressed-state);
+	cursor: pointer;
+}
+
+.section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: calc(40px / 36px);
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--dark);
+}
+
+.card-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: calc(24px / 16px);
+	letter-spacing: 0.02em;
+	color: var(--dark);
+}
+
+.content {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: calc(24px / 16px);
+	letter-spacing: 0.02em;
+}
+
+.team {
+	background-color: var(--light);
+}
+
+.card {
+	background-color: var(--white-background);
+}
+
+.team .card-title,
+.team .content {
+	text-align: center;
+}
+
+footer {
+	background-color: var(--dark);
+}
+
+footer .logo,
+footer p {
+	color: var(--light);
+}
