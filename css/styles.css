@@ -7,6 +7,7 @@
 	--white-background: #fff; /*White*/
 }
 
+/* Global Variable */
 body {
 	font-family: 'Roboto', sans-serif;
 	background-color: var(--white-background);
@@ -15,10 +16,61 @@ body {
 
 ul {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 a {
 	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+/* Layout */
+.container {
+	max-width: 1158px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/* Header */
+
+.page-header {
+	border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
 }
 
 .logo {
@@ -28,42 +80,66 @@ a {
 	font-size: 18px;
 	line-height: calc(24px / 16px);
 	letter-spacing: 0.03em;
-}
-
-header .logo {
-	color: var(--dark);
-}
-
-.logo span {
 	color: var(--primary-brand);
 }
 
-nav a {
+.header-logo {
+	padding: 24px 0;
+	margin-right: 76px;
+}
+
+.header-logo .logo-part {
+	color: var(--dark);
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+}
+
+.nav-link {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: calc(24px / 16px);
 	color: var(--dark);
 	letter-spacing: 0.02em;
+	padding: 24px 0;
+	display: block;
 }
 
-nav a:hover,
-nav a:focus {
+.nav-link:hover,
+.nav-link:focus {
 	color: var(--pressed-state);
 }
 
-address a {
+.contacts {
+	margin-left: auto;
+}
+
+.contacts-link {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: calc(24px / 16px);
 	font-style: normal;
 	letter-spacing: 0.02em;
 	color: var(--text);
+	padding: 24px 0;
 }
 
-address a:hover,
-address a:focus {
+.contacts-list {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
 	color: var(--pressed-state);
 }
+
+/* Hero Section */
 
 .banner {
 	background-color: var(--dark);
@@ -93,6 +169,8 @@ address a:focus {
 	background-color: var(--pressed-state);
 	cursor: pointer;
 }
+
+/* Main Content */
 
 .section-title {
 	font-weight: 700;
@@ -131,11 +209,13 @@ address a:focus {
 	text-align: center;
 }
 
-footer {
+/* Footer */
+
+.page-footer {
 	background-color: var(--dark);
 }
 
-footer .logo,
-footer p {
+.footer-logo .logo-part,
+.footer-content {
 	color: var(--light);
 }
