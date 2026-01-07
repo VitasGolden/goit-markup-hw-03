@@ -57,10 +57,6 @@ h6 {
 	margin: 0 auto;
 }
 
-/* .section {
-	padding: 120px 0;
-} */
-
 /* Header */
 
 .page-header {
@@ -99,7 +95,6 @@ h6 {
 .nav-list {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	gap: 40px;
 }
 
@@ -194,17 +189,22 @@ h6 {
 	letter-spacing: 0.02em;
 	text-align: center;
 	color: var(--dark);
+	padding: 0 0 72px;
 }
 
 .benefits {
 	padding: 120px 0;
 }
 
-.card-list {
+.card-list,
+.team-list {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	gap: 24px;
+}
+
+.card-item {
+	max-width: 264px;
 }
 
 .card-title {
@@ -213,6 +213,8 @@ h6 {
 	line-height: calc(24px / 16px);
 	letter-spacing: 0.02em;
 	color: var(--dark);
+	margin-bottom: 8px;
+	padding-top: 32px;
 }
 
 .content {
@@ -220,14 +222,18 @@ h6 {
 	font-size: 16px;
 	line-height: calc(24px / 16px);
 	letter-spacing: 0.02em;
+	padding-bottom: 32px;
 }
 
 .team {
 	background-color: var(--light);
+	padding: 120px 0;
 }
 
-.card {
+.team-card {
 	background-color: var(--white-background);
+	max-width: 264px;
+	border-radius: 0 0 4px 4px;
 }
 
 .team .card-title,
