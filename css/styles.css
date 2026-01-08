@@ -223,6 +223,8 @@ h6 {
 	letter-spacing: 0.02em;
 }
 
+/* Team */
+
 .team {
 	background-color: var(--light);
 	padding: 120px 0;
@@ -238,6 +240,8 @@ h6 {
 	text-align: center;
 	padding: 32px 0;
 }
+
+/* Portfolio */
 
 .portfolio {
 	padding: 120px 0;
@@ -270,9 +274,15 @@ h6 {
 
 .page-footer {
 	background-color: var(--dark);
+	padding: 100px 0;
 }
 
 .footer-logo .logo-part,
 .footer-content {
 	color: var(--light);
+}
+
+.footer-content {
+	margin-top: 16px;
+	max-width: 264px;
 }
