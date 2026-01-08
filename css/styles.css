@@ -192,10 +192,6 @@ h6 {
 	padding: 0 0 72px;
 }
 
-.benefits {
-	padding: 120px 0;
-}
-
 .card-list,
 .team-list {
 	display: flex;
@@ -229,7 +225,6 @@ h6 {
 
 .team {
 	background-color: var(--light);
-	padding: 120px 0;
 }
 
 .team-card {
@@ -241,13 +236,12 @@ h6 {
 .team .card-title,
 .team .content {
 	text-align: center;
-<<<<<<< HEAD
 	padding: 32px 0;
 }
 
 /* Portfolio */
 
-.portfolio {
+.section {
 	padding: 120px 0;
 }
 
@@ -272,8 +266,6 @@ h6 {
 	border: 1px solid #e7e9fc;
 	border-top: none;
 	padding: 32px 16px;
-=======
->>>>>>> parent of 4db09f1 (Repaired team section and completed portfolio section)
 }
 
 /* Footer */
