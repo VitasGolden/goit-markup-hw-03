@@ -78,7 +78,7 @@ h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
-	line-height: calc(24px / 16px);
+	line-height: calc(21px / 18px);
 	letter-spacing: 0.03em;
 	color: var(--primary-brand);
 }
@@ -206,11 +206,10 @@ h6 {
 .card-title {
 	font-weight: 500;
 	font-size: 20px;
-	line-height: calc(24px / 16px);
+	line-height: calc(24px / 20px);
 	letter-spacing: 0.02em;
 	color: var(--dark);
 	margin-bottom: 8px;
-	padding-top: 32px;
 }
 
 .content {
@@ -218,7 +217,6 @@ h6 {
 	font-size: 16px;
 	line-height: calc(24px / 16px);
 	letter-spacing: 0.02em;
-	padding-bottom: 32px;
 }
 
 /* Team */
@@ -233,8 +231,7 @@ h6 {
 	border-radius: 0 0 4px 4px;
 }
 
-.team .card-title,
-.team .content {
+.card-content {
 	text-align: center;
 	padding: 32px 0;
 }
