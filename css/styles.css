@@ -118,6 +118,7 @@ h6 {
 }
 
 .contacts-link {
+	display: block;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: calc(24px / 16px);
@@ -142,9 +143,6 @@ h6 {
 
 .banner {
 	background-color: var(--dark);
-}
-
-.banner-container {
 	padding: 188px 0;
 }
 
@@ -233,7 +231,7 @@ h6 {
 
 .card-content {
 	text-align: center;
-	padding: 32px 0;
+	padding: 32px 16px;
 }
 
 /* Portfolio */
